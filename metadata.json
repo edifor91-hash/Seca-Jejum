@@ -1,0 +1,6 @@
+{
+  "name": "Seca Jejum",
+  "description": "Uma jornada de transformação inspirada no método de jejum adaptado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

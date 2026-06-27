@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-cyan: #14B8A6;
+  --color-brand-red: #EF4444;
+  --animate-heartbeat: heartbeat 1.8s ease-in-out infinite;
+
+  @keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+  }
+}
+
+body {
+  @apply font-sans text-gray-900 bg-white;
+}
